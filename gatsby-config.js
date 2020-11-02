@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Movement Mechanics`,
+    description: `Physiotherapy Chiropractic clinic at Newington`,
+    author: `dkhole`,
+  },
+  plugins: [`gatsby-plugin-preact`],
 }

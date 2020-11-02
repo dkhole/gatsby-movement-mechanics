@@ -1,0 +1,72 @@
+#landing {
+  min-height: 800px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+#landing .bg-image {
+  position: absolute;
+  background: url(../../img/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#landing .bg-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+#landing h1 {
+  margin: 0;
+  padding-top: 300px;
+  font-weight: normal;
+  font-family: var(--main-landing-font);
+}
+
+.btn {
+  display: inline-block;
+  background: tomato;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  border-radius: 5px;
+  margin: 3em 0;
+}
+
+.btn:hover {
+  background: black;
+}
+
+@media (min-width: 1000px) {
+  #landing {
+    min-height: 110vh;
+  }
+
+  #landing h1 {
+    padding-top: 40vh;
+    font-size: 50px;
+  }
+
+  #landing p {
+    letter-spacing: 2px;
+  }
+
+  #landing .bg-image {
+    height: 110vh;
+    background-attachment: fixed;
+  }
+}

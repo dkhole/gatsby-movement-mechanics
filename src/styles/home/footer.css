@@ -1,0 +1,21 @@
+#main-footer {
+  padding: 2em;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #map {
+    height: 500px;
+  }
+}

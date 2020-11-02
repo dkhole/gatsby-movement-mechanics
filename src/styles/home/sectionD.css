@@ -1,0 +1,23 @@
+#section-d {
+  height: 725px;
+}
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+  background-color: #333;
+}
+
+#section-d .box:first-child {
+  background: #2690d4;
+}
+
+#map {
+  height: 300px;
+}
+
+@media (min-width: 1000px) {
+  .box {
+    grid-column: span 2;
+  }
+}

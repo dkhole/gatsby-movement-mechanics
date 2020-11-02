@@ -1,0 +1,8 @@
+import "./src/styles/home/_main.css"
+import "./src/styles/home/nav.css"
+import "./src/styles/home/landing.css"
+import "./src/styles/home/sectionA.css"
+import "./src/styles/home/sectionB.css"
+import "./src/styles/home/sectionC.css"
+import "./src/styles/home/sectionD.css"
+import "./src/styles/home/footer.css"

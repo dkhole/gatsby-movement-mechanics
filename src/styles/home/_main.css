@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+
+:root {
+  --main-heading-font: "Staatliches", cursive;
+  --main-landing-font: "Poppins", sans-serif;
+}
+
+html,
+body,
+#home-wrap {
+  margin: 0;
+  padding: 0;
+  height: 100vw;
+  width: 100vw;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#landing .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+  }
+
+  .content-wrap {
+    grid-column: 2/4;
+  }
+}
