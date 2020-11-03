@@ -1,5 +1,5 @@
 #landing {
-  min-height: 800px;
+  min-height: 1000px;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 800px;
+  height: 1000px;
   z-index: -1;
   opacity: 0.9;
 }
