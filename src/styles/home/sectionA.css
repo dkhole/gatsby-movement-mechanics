@@ -1,25 +1,24 @@
 #section-a {
-  background-color: linear-gradient(
-    180deg,
-    rgba(9, 9, 9, 1) 0%,
-    rgba(83, 83, 83, 0.9051995798319328) 65%,
-    rgba(219, 219, 219, 0.7399334733893557) 100%
-  );
+  background: #090909;
   color: #fff;
-  height: 1500px;
+  height: 100vh;
 }
 
 #section-a h2 {
   margin: 0;
-  padding-top: 300px;
-  padding-bottom: 15px;
+  padding-top: 400px;
+  padding-bottom: 30px;
   font-weight: normal;
   font-family: var(--main-landing-font);
 }
 
+#section-a p {
+  line-height: 35px;
+}
+
 @media (min-width: 1000px) {
   #section-a {
-    background-color: #090909;
+    background: #090909;
     line-height: 32px;
     height: 300px;
   }
