@@ -1,6 +1,8 @@
 #section-c {
   padding: 2em 1em 1em;
   background-color: #333;
+  position: relative;
+  z-index: 0;
 }
 
 #section-c ul {

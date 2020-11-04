@@ -15,8 +15,8 @@ export default function Landing() {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, optio.
         </p>
-        <a href="#section-a" className="btn">
-          Read More
+        <a href="#section-b" className="btn">
+          Book Now
         </a>
       </div>
     </header>
