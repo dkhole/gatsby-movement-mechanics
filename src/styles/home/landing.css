@@ -19,7 +19,7 @@
   opacity: 0.9;
 }
 
-#landing .bg-image:after {
+/*#landing .bg-image:after {
   content: "";
   position: absolute;
   top: 0;
@@ -27,13 +27,34 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
+}*/
+
+#landing .land-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1000px;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    rgba(87, 87, 87, 0.25) 0%,
+    rgba(22, 22, 22, 0.7) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: -1;
 }
 
 #landing h1 {
   margin: 0;
-  padding-top: 300px;
+  padding-top: 450px;
   font-weight: normal;
   font-family: var(--main-landing-font);
+}
+
+#landing .scrollmagic-pin-spacer {
+  z-index: -1;
 }
 
 .btn {
@@ -56,6 +77,10 @@
     min-height: 110vh;
   }
 
+  #landing .land-overlay {
+    height: 110vh;
+  }
+
   #landing h1 {
     padding-top: 40vh;
     font-size: 50px;
@@ -67,6 +92,5 @@
 
   #landing .bg-image {
     height: 110vh;
-    background-attachment: fixed;
   }
 }

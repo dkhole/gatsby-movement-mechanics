@@ -1,9 +1,15 @@
 import React from "react"
+import { Controller, Scene } from "react-scrollmagic"
 
 export default function Landing() {
   return (
     <header id="landing" className="grid">
-      <div className="bg-image"></div>
+      <Controller>
+        <Scene pin duration={150} triggerHook="onLeave">
+          <div className="bg-image"></div>
+        </Scene>
+      </Controller>
+      <div className="land-overlay"></div>
       <div className="content-wrap">
         <h1 className="title">Taking the focus away from pain</h1>
         <p>

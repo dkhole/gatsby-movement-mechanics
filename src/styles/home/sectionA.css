@@ -1,12 +1,16 @@
 #section-a {
-  background: #090909;
+  background: black;
   color: #fff;
   height: 100vh;
 }
 
+#scene-wrap {
+  transition: all ease 2s;
+}
+
 #section-a h2 {
   margin: 0;
-  padding-top: 50%;
+  padding-top: 40%;
   padding-bottom: 30px;
   font-weight: normal;
   font-family: var(--main-landing-font);
@@ -26,5 +30,9 @@
   #section-a h2 {
     padding-top: 65px;
     padding-bottom: 25px;
+  }
+
+  #scene-wrap {
+    transform: none;
   }
 }

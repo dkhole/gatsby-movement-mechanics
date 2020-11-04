@@ -5,6 +5,7 @@ export default function SectionB() {
     <section id="section-b" className="grid">
       <div className="physio">
         <div className="physio-image"></div>
+
         <h1 className="section-b-title">Physiotherapy</h1>
         <p className="section-b-subtitle">
           with <span className="section-b-name">vegetable yu</span>
