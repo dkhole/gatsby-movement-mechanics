@@ -2,6 +2,7 @@
   background: black;
   color: #fff;
   height: 90vh;
+  scroll-snap-type: y proximity;
 }
 
 #scene-wrap {
@@ -14,7 +15,7 @@
   padding-bottom: 30px;
   font-weight: normal;
   font-family: var(--main-landing-font);
-  scroll-snap-stop: always;
+  scroll-snap-align: start;
 }
 
 #section-a p {

@@ -1,5 +1,4 @@
 #section-b {
-  height: 140vh;
   font-size: 12.5px;
 }
 
@@ -44,7 +43,7 @@
 
 #section-b .physio {
   color: black;
-  height: 70vh;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -54,7 +53,7 @@
 }
 
 #physio-overlay {
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -102,17 +101,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   z-index: -1;
 }
 
 #section-b .chiro {
   color: white;
-  height: 70vh;
+  height: 100vh;
 }
 
 #chiro-overlay {
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   background-color: #2691d4b2;
 }
@@ -128,7 +127,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   z-index: -1;
 }
 
