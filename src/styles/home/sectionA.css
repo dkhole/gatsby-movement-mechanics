@@ -1,7 +1,7 @@
 #section-a {
   background: black;
   color: #fff;
-  height: 50vh;
+  height: 70vh;
 }
 
 #scene-wrap {
@@ -10,7 +10,7 @@
 
 #section-a h2 {
   margin: 0;
-  padding-top: 40%;
+  padding-top: 50%;
   padding-bottom: 30px;
   font-weight: normal;
   font-family: var(--main-landing-font);
