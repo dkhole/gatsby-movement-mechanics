@@ -48,7 +48,7 @@
 
 #landing h1 {
   margin: 0;
-  padding-top: 450px;
+  padding-top: 45vh;
   font-weight: normal;
   font-family: var(--main-landing-font);
 }

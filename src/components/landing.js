@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <header id="landing" className="grid">
       <Controller>
-        <Scene pin duration={150} triggerHook="onLeave">
+        <Scene pin duration={250} triggerHook="onLeave">
           <div className="bg-image"></div>
         </Scene>
       </Controller>
