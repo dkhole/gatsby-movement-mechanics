@@ -8,7 +8,7 @@ export default function SectionA() {
       <div className="content-wrap">
         <Controller>
           <Scene triggerElement="#section-a" offset="-200px">
-            <Tween to={{ y: "-500" }}>
+            <Tween to={{ y: "-250" }}>
               <div id="scene-wrap">
                 <h2 className="content-title">Our Goal</h2>
 

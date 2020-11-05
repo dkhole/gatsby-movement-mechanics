@@ -18,6 +18,12 @@ body,
   text-align: center;
 }
 
+#snap-overlay {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
 #landing .content-wrap,
 #section-a .content-wrap {
   padding: 0 1.5em;

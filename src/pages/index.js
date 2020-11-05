@@ -8,7 +8,7 @@ import SectionD from "../components/sectionD"
 import Footer from "../components/footer"
 
 export default function Home() {
-  useEffect(() => {
+  /*useEffect(() => {
     const nav = document.getElementById("nav")
     const logo = document.getElementById("logo-place")
     const hamburger = document.getElementById("hamburger")
@@ -32,13 +32,15 @@ export default function Home() {
     }
 
     window.addEventListener("scroll", onScroll)
-  }, [])
+  }, [])*/
 
   return (
     <div id="home-wrap">
       <Nav />
-      <Landing />
-      <SectionA />
+      <div id="snap-overlay">
+        <Landing />
+        <SectionA />
+      </div>
       <SectionB />
       <SectionC />
       <SectionD />
