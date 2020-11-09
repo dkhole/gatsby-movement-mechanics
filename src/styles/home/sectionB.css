@@ -1,5 +1,6 @@
 #section-b {
   font-size: 12.5px;
+  scroll-snap-align: start;
 }
 
 #section-b h1,
@@ -155,7 +156,7 @@
   .section-b-subtitle,
   .section-b-text,
   #section-b a {
-    left: 20%;
+    left: 15%;
   }
 
   #section-b a {
