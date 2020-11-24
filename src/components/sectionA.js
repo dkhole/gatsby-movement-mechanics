@@ -1,13 +1,11 @@
 import React from "react"
 import { Controller, Scene } from "react-scrollmagic"
-import { useMediaQuery } from "react-responsive"
+//import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 export default function SectionA() {
-  const isMobileOrComp = useMediaQuery({
-    query: "(min-width: 1000px)",
-  })
+  //const breakpoints = useBreakpoint();
 
-  if (!isMobileOrComp) {
+  if (true) {
     //mobile
     return (
       <section id="section-a" className="grid">

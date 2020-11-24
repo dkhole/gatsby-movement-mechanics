@@ -6,12 +6,11 @@ import SectionB from "../components/sectionB"
 import SectionC from "../components/sectionC"
 import SectionD from "../components/sectionD"
 import Footer from "../components/footer"
-import { useMediaQuery } from "react-responsive"
+//import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 export default function Home() {
-  const isMobileOrComp = useMediaQuery({
-    query: "(min-width: 1000px)",
-  })
+  //const breakpoints = useBreakpoint();
+
   useEffect(() => {
     const snap = document.getElementById("snap-overlay")
 
@@ -32,7 +31,7 @@ export default function Home() {
     snap.addEventListener("scroll", onScroll)
   }, [])
 
-  if (!isMobileOrComp) {
+  if (true) {
     return (
       <div id="home-wrap">
         <Nav />
